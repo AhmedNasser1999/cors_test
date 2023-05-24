@@ -1,0 +1,18 @@
+<html>
+
+<body>
+    <script>
+        //Pentesting Course by Zigoo0
+        var url = "https://xp.apple.com/report/2/xp_aos_clientperf";
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open('POST', url, true);
+        //var mimeType = "text/html";
+        //xmlHttp.setRequestHeader('Content-Type',
+            //mimeType);
+        xmlHttp.send(null);
+        //Trying to read the response to demonestrate the SOP
+        alert(xmlHttp.responseText);
+    </script>
+</body>
+
+</html>
